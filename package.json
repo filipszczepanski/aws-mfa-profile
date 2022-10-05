@@ -1,0 +1,37 @@
+{
+  "name": "@szczepanski/aws-mfa-profile",
+  "version": "0.0.1",
+  "description": "Tool for creating AWS Profile with MFA",
+  "main": "index.mjs",
+  "bin": {
+    "aws-mfa-profile": "dist/index.mjs"
+  },
+  "dependencies": {
+    "inquirer": "9.1.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.34.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "build": "ncc build index.mjs -m -o dist ",
+    "debug": "ncc run index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipszczepanski/aws-mfa-profile.git"
+  },
+  "keywords": [
+    "aws",
+    "mfa",
+    "profile",
+    "token",
+    "cli"
+  ],
+  "author": "Filip Szczepanski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipszczepanski/aws-mfa-profile/issues"
+  },
+  "homepage": "https://github.com/filipszczepanski/aws-mfa-profile#readme"
+}
