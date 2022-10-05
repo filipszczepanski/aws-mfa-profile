@@ -14,13 +14,13 @@ AWS CLI can not do that.
 
 ## Installation
 
-Install my-project with npm
+Install with npm
 
 ```bash
 npm install --global @szczepanski/aws-mfa-profile
 ```
 
-## Usage/Examples
+## Usage
 
 ```bash
 aws-mfa-profile
